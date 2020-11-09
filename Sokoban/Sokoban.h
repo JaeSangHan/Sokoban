@@ -1,5 +1,6 @@
 #define MAP_WIDTH 30
 #define MAP_HEIGHT 30
+//∏  ªÁ¿Ã¡Ó (MAP_WIDTH X MAP_HEIGHT)
 
 #define Key_h 104
 #define Key_j 106
@@ -14,10 +15,24 @@
 #define Key_d 100
 #define Key_t 116
 
+struct Position
+{
+	int pos_X;
+	int pos_Y;
+};
+
 enum Movement
 {
 	UP,
 	DOWN,
 	LEFT,
 	RIGHT
+};
+
+enum BlockType
+{
+	BLANK,
+	WALL,
+	GOLD,
+	GOAL
 };

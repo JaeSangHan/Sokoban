@@ -1,2 +1,5 @@
 ﻿  Sokoban.cpp
-  Sokoban.vcxproj -> C:\Users\hhncn\source\repos\Sokoban\Debug\Sokoban.exe
+c:\users\hhncn\source\repos\sokoban\sokoban\sokoban.cpp(50): error C2660: 'GenerateMap': 함수는 1개의 매개 변수를 사용하지 않습니다.
+  c:\users\hhncn\source\repos\sokoban\sokoban\sokoban.cpp(13): note: 'GenerateMap' 선언을 참조하십시오.
+c:\users\hhncn\source\repos\sokoban\sokoban\sokoban.cpp(191): error C2660: 'GenerateMap': 함수는 1개의 매개 변수를 사용하지 않습니다.
+  c:\users\hhncn\source\repos\sokoban\sokoban\sokoban.cpp(73): note: 'GenerateMap' 선언을 참조하십시오.

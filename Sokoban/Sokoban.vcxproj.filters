@@ -18,9 +18,15 @@
     <ClCompile Include="Sokoban.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sokoban.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
